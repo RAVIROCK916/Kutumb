@@ -10,7 +10,6 @@ import { useNavigate } from "react-router";
 const CreateQuote = () => {
 	const [quote, setQuote] = useState("");
 	const [file, setFile] = useState<File | undefined>();
-	const [mediaUrl, setMediaUrl] = useState("");
 
 	const navigate = useNavigate();
 
@@ -28,9 +27,7 @@ const CreateQuote = () => {
 				},
 			});
 
-			setMediaUrl(response.data[0].url);
-
-			const quoteResponse = await axios.post(
+			await axios.post(
 				createQuoteUrl,
 				{
 					text: quote,
