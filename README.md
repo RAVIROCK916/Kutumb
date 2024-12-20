@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Kutumb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Social Network App
 
-Currently, two official plugins are available:
+### Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Kutumb is a social network app that allows users to create profiles, connect with friends, and share posts. The app also includes features such as messaging, notifications, and the ability to follow other users.
 
-## Expanding the ESLint configuration
+## How to run the app
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run the app, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository to your local machine.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/RaviRock916/Kutumb.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Open the project in your preferred IDE (e.g., Visual Studio Code).
+3. Set up the necessary dependencies by running the `npm install` command.
+4. Run the app using the `npm start` command.
+
+The app should now be running on your local machine and you can access it in your web browser at `http://localhost:5173`.
+
+Note: If you are using a different IDE or text editor, you may need to modify the project configuration accordingly.
+
+```
+
+```
